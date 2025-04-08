@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden; /* Asegúrate de que la imagen no desborde el contenedor */
+}
+.header-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Coloca la imagen por delante del texto */
+    opacity: 0.7; /* Haz que la imagen sea semitransparente */
+}
+header h1 {
+    position: relative;
+    z-index: 2; /* Coloca el texto por delante de la imagen */
+    color: #fff; /* Color blanco para el texto */
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro para mejorar la legibilidad */
+    display: inline-block;
+    padding: 10px 20px; /* Aumenta el padding para un mejor ajuste con el tamaño */
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto para realce */
+    border: 2px solid rgba(255, 255, 255, 0.7); /* Borde blanco semitransparente */
+    font-size: 3em; /* Aumenta el tamaño del texto */
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    font-size: 2em; /* Aumenta el tamaño de los subtítulos */
+    color: #333; /* Color del texto del subtítulo */
+}
+.news-item, .update-item, .announcement-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #107C10; /* Color verde de Xbox */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px; /* Forma redondeada similar al botón de un control */
+    border: 2px solid #000;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente similar a la de Xbox */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.back-button:hover {
+    background-color: #0E6C0E; /* Color más oscuro al pasar el mouse */
+    border-color: #000;
+}
